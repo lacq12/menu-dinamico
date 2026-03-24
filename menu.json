@@ -12,8 +12,9 @@
     "titulo": "Internet",
     "url": "#",
     "submenus": [
-      { "titulo": "Fibra Óptica", "url": "#" },
-      { "titulo": "Planes Hogar", "url": "#" }
+      { "titulo": "Claro", "url": "https://tienda.claro.com.do/sx/consulta-tu-disponibilidad/internet-fijo-residencial" },
+      { "titulo": "Altice", "url": "https://altice.com.do/personal/internet/planes/hogar/fibra" }
+      { "titulo": "Wind", "url": "https://wind.com.do/fibraoptica/" }
     ]
   },
   {
