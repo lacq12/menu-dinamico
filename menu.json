@@ -3,7 +3,7 @@
     "titulo": "Móviles",
     "url": "#",
     "submenus": [
-      { "titulo": "Samsung", "url": "#" },
+      { "titulo": "Samsung", "url": "https://shop.samsung.com/latin/do/" },
       { "titulo": "iPhone", "url": "#" },
       { "titulo": "Xiaomi", "url": "#" }
     ]
