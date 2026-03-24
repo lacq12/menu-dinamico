@@ -22,11 +22,11 @@
     "url": "#",
     "submenus": [
       {
-        "titulo": "Entretenimiento",
+        "titulo": "Streaming",
         "url": "#",
         "submenus": [
-          { "titulo": "Claro Video", "url": "#" },
-          { "titulo": "Claro Música", "url": "#" }
+          { "titulo": "Netflix", "url": "https://www.netflix.com/do/" },
+          { "titulo": "Prime Video", "url": "https://www.primevideo.com/offers/nonprimehomepage/ref=dvm_pds_amz_do_hk_s_g_mkw_p409-kw8790-cr57230-c?gad_campaignid=700389088&mrntrk=go_cmp-700389088_adg-42306243808_ad-645960031912_kwd-2850171361_dev-c_ext-" }
         ]
       },
       { "titulo": "Pagos", "url": "#" }
