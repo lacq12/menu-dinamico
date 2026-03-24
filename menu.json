@@ -1,0 +1,34 @@
+[
+  {
+    "titulo": "Móviles",
+    "url": "#",
+    "submenus": [
+      { "titulo": "Samsung", "url": "#" },
+      { "titulo": "iPhone", "url": "#" },
+      { "titulo": "Xiaomi", "url": "#" }
+    ]
+  },
+  {
+    "titulo": "Internet",
+    "url": "#",
+    "submenus": [
+      { "titulo": "Fibra Óptica", "url": "#" },
+      { "titulo": "Planes Hogar", "url": "#" }
+    ]
+  },
+  {
+    "titulo": "Servicios",
+    "url": "#",
+    "submenus": [
+      {
+        "titulo": "Entretenimiento",
+        "url": "#",
+        "submenus": [
+          { "titulo": "Claro Video", "url": "#" },
+          { "titulo": "Claro Música", "url": "#" }
+        ]
+      },
+      { "titulo": "Pagos", "url": "#" }
+    ]
+  }
+]
