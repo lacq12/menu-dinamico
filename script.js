@@ -1,16 +1,20 @@
 fetch('menu.json')
-  .then(response => response.json())
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Error al cargar el JSON');
+    }
+    return response.json();
+  })
   .then(data => {
     const menu = document.getElementById('menu');
     const ul = document.createElement('ul');
-
-    data.forEach(item => {
-      ul.appendChild(crearItem(item));
-    });
-
+    data.forEach(item => ul.appendChild(crearItem(item)));
     menu.appendChild(ul);
   })
-  .catch(error => console.error('Error cargando el menú:', error));
+  .catch(error => {
+    console.error(error);
+    document.body.innerHTML = '<h3>Error cargando el menú</h3>';
+  });
 
 function crearItem(item) {
   const li = document.createElement('li');
