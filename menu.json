@@ -4,8 +4,8 @@
     "url": "#",
     "submenus": [
       { "titulo": "Samsung", "url": "https://shop.samsung.com/latin/do/" },
-      { "titulo": "iPhone", "url": "#" },
-      { "titulo": "Xiaomi", "url": "#" }
+      { "titulo": "iPhone", "url": "https://www.apple.com/la/iphone/" },
+      { "titulo": "Xiaomi", "url": "https://www.mi.com/es/store/" }
     ]
   },
   {
