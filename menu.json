@@ -36,8 +36,8 @@
 		
 		"submenus": [
 		{
-			"titulo": "Internet Fibra"
-			"url": "https://tienda.claro.com.do/internet"
+			"titulo": "Internet Fibra",
+			"url": "https://tienda.claro.com.do/internet",
 		}
 	  ]
         "url": "https://tienda.claro.com.do/sx/consulta-tu-disponibilidad/internet-fijo-residencial"
