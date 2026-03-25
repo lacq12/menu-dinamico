@@ -1,17 +1,10 @@
 [
   {
-    // Elemento principal del menú
     "titulo": "Móviles",
-
-    // Enlace del menú principal (en este caso no redirige)
     "url": "#",
-
-    // Submenús asociados a "Móviles"
     "submenus": [
       {
-        // Título del submenú
         "titulo": "Samsung",
-        // Enlace al sitio de Samsung
         "url": "https://shop.samsung.com/latin/do/"
       },
       {
@@ -25,22 +18,18 @@
     ]
   },
   {
-    // Otro elemento principal del menú
     "titulo": "Internet",
     "url": "#",
-
-    // Submenús de proveedores de Internet
     "submenus": [
       {
         "titulo": "Claro",
-		
-		"submenus": [
-		{
-			"titulo": "Internet Fibra",
-			"url": "https://tienda.claro.com.do/internet",
-		}
-	  ]
-        "url": "https://tienda.claro.com.do/sx/consulta-tu-disponibilidad/internet-fijo-residencial"
+        "url": "https://tienda.claro.com.do/sx/consulta-tu-disponibilidad/internet-fijo-residencial",
+        "submenus": [
+          {
+            "titulo": "Internet Fibra",
+            "url": "https://tienda.claro.com.do/internet"
+          }
+        ]
       },
       {
         "titulo": "Altice",
@@ -53,18 +42,12 @@
     ]
   },
   {
-    // Menú principal de servicios
     "titulo": "Servicios",
     "url": "#",
-
-    // Submenús generales
     "submenus": [
       {
-        // Submenú que a su vez tiene más submenús
         "titulo": "Streaming",
         "url": "#",
-
-        // Submenús de plataformas de streaming
         "submenus": [
           {
             "titulo": "Netflix",
@@ -77,7 +60,6 @@
         ]
       },
       {
-        // Submenú sin submenús internos
         "titulo": "Pagos",
         "url": "#"
       }
