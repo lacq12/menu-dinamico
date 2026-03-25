@@ -1,47 +1,86 @@
 [
   {
+    // Elemento principal del menú
     "titulo": "Móviles",
+
+    // Enlace del menú principal (en este caso no redirige)
     "url": "#",
+
+    // Submenús asociados a "Móviles"
     "submenus": [
-      { "titulo": "Samsung", "url": "https://shop.samsung.com/latin/do/" },
-      { "titulo": "iPhone", "url": "https://www.apple.com/la/iphone/" },
-      { "titulo": "Xiaomi", "url": "https://www.mi.com/es/store/" }
-    ]
-  },
-  {
-    "titulo": "Internet",
-    "url": "#",
-    "submenus": [
-      { 
-        "titulo": "Claro", 
-        "url": "https://tienda.claro.com.do/sx/consulta-tu-disponibilidad/internet-fijo-residencial" 
+      {
+        // Título del submenú
+        "titulo": "Samsung",
+        // Enlace al sitio de Samsung
+        "url": "https://shop.samsung.com/latin/do/"
       },
-      { 
-        "titulo": "Altice", 
-        "url": "https://altice.com.do/personal/internet/planes/hogar/fibra" 
+      {
+        "titulo": "iPhone",
+        "url": "https://www.apple.com/la/iphone/"
       },
-      { 
-        "titulo": "Wind", 
-        "url": "https://wind.com.do/fibraoptica/" 
+      {
+        "titulo": "Xiaomi",
+        "url": "https://www.mi.com/es/store/"
       }
     ]
   },
   {
-    "titulo": "Servicios",
+    // Otro elemento principal del menú
+    "titulo": "Internet",
     "url": "#",
+
+    // Submenús de proveedores de Internet
     "submenus": [
       {
+        "titulo": "Claro",
+		
+		"submenus": [
+		{
+			"titulo": "Internet Fibra"
+			"url": "https://tienda.claro.com.do/internet"
+		}
+	  ]
+        "url": "https://tienda.claro.com.do/sx/consulta-tu-disponibilidad/internet-fijo-residencial"
+      },
+      {
+        "titulo": "Altice",
+        "url": "https://altice.com.do/personal/internet/planes/hogar/fibra"
+      },
+      {
+        "titulo": "Wind",
+        "url": "https://wind.com.do/fibraoptica/"
+      }
+    ]
+  },
+  {
+    // Menú principal de servicios
+    "titulo": "Servicios",
+    "url": "#",
+
+    // Submenús generales
+    "submenus": [
+      {
+        // Submenú que a su vez tiene más submenús
         "titulo": "Streaming",
         "url": "#",
+
+        // Submenús de plataformas de streaming
         "submenus": [
-          { "titulo": "Netflix", "url": "https://www.netflix.com/do/" },
-          { 
-            "titulo": "Prime Video", 
-            "url": "https://www.primevideo.com/" 
+          {
+            "titulo": "Netflix",
+            "url": "https://www.netflix.com/do/"
+          },
+          {
+            "titulo": "Prime Video",
+            "url": "https://www.primevideo.com/"
           }
         ]
       },
-      { "titulo": "Pagos", "url": "#" }
+      {
+        // Submenú sin submenús internos
+        "titulo": "Pagos",
+        "url": "#"
+      }
     ]
   }
 ]
